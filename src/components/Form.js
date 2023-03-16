@@ -78,7 +78,7 @@ const Form = (props) => {
         onChange={interestChangeHandler}
         name="Interest Rate :"
         min="0"
-        max="30"
+        max="25"
         step="0.1"
         symbol="%"
         value={interest}
